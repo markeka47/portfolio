@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* forma de aplicar reset css sem arquivo externo */
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   box-sizing:border-box;
   background-color: #000000;
   color: #f6f6f6;
