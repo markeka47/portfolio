@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/styles/style.css">
   <title>Portfólio Profissional</title>
 </head>
 <body>
-  <header>
-    <a href="" class="cabecalho">Home</a>
-    <a href="" class="cabecalho">Sobre mim</a>
+  <header class="cabecalho">
+    <nav class="cabecalho_menu">
+      <a href="/index.html" class="cabecalho_link">Home</a>
+      <a href="/about.html" class="cabecalho_link">Sobre mim</a>
+    </nav>
   </header>
   <main class="apresentacao">
     <section class="apresentacao__conteudo">
@@ -17,13 +19,21 @@
       <p class="apresentacao__paragrafo">Olá! Sou Marcos Santos, desenvolvedor Front-end com especialidade em JavaScript, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
       <div class="apresentacao__link">
         <h2 class="subtitulo">Acesse minhas redes:</h2>
-        <a class="botoes__link" href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
-        <a class="botoes__link" href="https://github.com" target="_blank" rel="noopener">GitHub</a>
-        <a class="botoes__link" href="https://www.linkedin.com/" target="_blank" rel="noopener">Linkedin</a>
+        <a class="botoes__link" href="https://github.com" target="_blank" rel="noopener">
+          <img src="/assets/github.png" alt="">
+          GitHub</a>
+          <a class="botoes__link" href="https://www.linkedin.com/" target="_blank" rel="noopener">
+            <img src="/assets/linkedin.png" alt="">
+            Linkedin</a>
+        <a class="botoes__link" href="https://instagram.com" target="_blank" rel="noopener">
+          <img src="/assets/instagram.png" alt="">
+          Instagram</a>
       </div>
     </section>
-    <img src="/images/Imagem.png" alt="Imagem do profissional Front-end">
+    <img src="/assets/Imagem.png" alt="Imagem do profissional Front-end" class="programadora">
   </main>
-  <footer class="rodape">Desenvolvido por Marcos Santos.</footer>
+  <footer class="rodape">
+    <p>Desenvolvido por Marcos Santos.</p>
+  </footer>
 </body>
 </html>
